@@ -27,7 +27,7 @@
             </div>
         </header>
 
-        <form>
+        <form class="form1">
             <h2>Contact Us</h2>
             <div class="row">
                 <div class="inputDiv">
@@ -59,6 +59,56 @@
             </div>
         </form>
 
+        <form class="form2">
+            <div class="row2">
+
+                <p>The schedule of work you are interested in</p>
+                <div class="row2Content">
+                    <div class="option">
+                        <input type="radio" name="schedule" value="fullTime">
+                        <label for="schedule">Full-time</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="schedule" value="partTime">
+                        <label for="schedule">Part-time</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="schedule" value="remote">
+                        <label for="schedule">Remote</label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row2">
+
+                <p>Select the programming languages, you know</p>
+                <div class="row2Content">
+                    <div class="option">
+                        <input type="checkbox" name="angular">
+                        <label for="angular">Angular</label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" name="python">
+                        <label for="python">Python</label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" name="javascript">
+                        <label for="javascript">Javascript</label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row2">
+                <p>Attach any supporting documents (resume, CV, cover letter, etc.) </p>
+                <div class="fileUploadDiv">
+                    <input type="file" name="file" id="file">
+                </div>
+        </form>
+
+        <form class="form3">
+            <button class="form3Buttons" type="submit" id="submit">SEND MESSAGE</button>
+            <input class="form3Buttons" type="reset" name="reset" id="reset">
+        </form>
     </div>
 </body>
 
